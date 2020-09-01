@@ -1,6 +1,9 @@
 const Calculator = require('./calculator');
 const calc = new Calculator();
 
+
+console.log("____Welcome____!");
+console.log("This is a calculator with hard coded inputs.");
 console.log("1 + 2 is " + calc.add(1, 2));
 console.log("3 - 5 is " + calc.sub(3, 5));
 console.log("3 * 5 is " + calc.mul(3, 5));
@@ -24,3 +27,5 @@ console.log("35 degree to celcius is " + calc.celciusToKelvin(35) + " kelvin");
 console.log("celcius to fahrenheit of 25 is " + calc.cToF(25));
 console.log("300 fahrenheit to kelvin is " + calc.fToK(300));
 console.log("450 kelvin to fahrenheit is " + calc.kToF(450));
+console.log("maximum number of [5,7] is " + calc.maxNum(5,7));
+console.log("minimum number of [5,7] is " + calc.minNum(5,7))
