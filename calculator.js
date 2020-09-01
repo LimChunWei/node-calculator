@@ -123,6 +123,15 @@ class Calculator {
   cToF(a){
     return parseFloat((a * 1.8 + 32).toFixed(1));
   }
+
+  maxNum(a, b){
+    return Math.max(a, b);
+    }
+
+  minNum(a, b){
+      return Math.min(a, b);
+    }
+  
 }
 
 module.exports = Calculator;
