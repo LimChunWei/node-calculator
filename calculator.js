@@ -111,6 +111,11 @@ class Calculator {
   kToC(a){
     return parseFloat((a - 273.15).toFixed(2));
   }
+  
+  fToK(a){
+	return parseFloat(((a - 32)* (5 / 9) + 273.15).toFixed(2));  
+  }
+  
   celciusToKelvin(a) {
     return a + 273.15;
   }
