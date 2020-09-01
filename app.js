@@ -23,3 +23,4 @@ console.log("300 Kelvin to celcius  is " + calc.kToC(300) + "C");
 console.log("35 degree to celcius is " + calc.celciusToKelvin(35) + " kelvin");
 console.log("celcius to fahrenheit of 25 is " + calc.cToF(25));
 console.log("300 fahrenheit to kelvin is " + calc.fToK(300));
+console.log("450 kelvin to fahrenheit is " + calc.kToF(450));

@@ -120,6 +120,10 @@ class Calculator {
     return a + 273.15;
   }
   
+  kToF(a){
+	return parseFloat(((a - 273.15)* (9 / 5) + 32).toFixed(2));  
+  }
+  
   cToF(a){
     return parseFloat((a * 1.8 + 32).toFixed(1));
   }
