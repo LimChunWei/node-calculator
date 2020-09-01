@@ -26,3 +26,5 @@ console.log("300 Kelvin to celcius  is " + calc.kToC(300) + "C");
 console.log("35 degree to celcius is " + calc.celciusToKelvin(35) + " kelvin");
 console.log("celcius to fahrenheit of 25 is " + calc.cToF(25));
 console.log("300 fahrenheit to kelvin is " + calc.fToK(300));
+console.log("maximum number of [5,7] is " + calc.maxNum(5,7));
+console.log("minimum number of [5,7] is " + calc.minNum(5,7));
